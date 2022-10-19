@@ -4,7 +4,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "api/*": ["./src/api/*"],
+      "assets/*": ["./src/assets/*"],
+      "components/*": ["./src/components/*"],
+      "layout/*": ["./src/layout/*"],
+      "stores/*": ["./src/stores/*"],
+      "utils/*": ["./src/utils/*"],
+      "views/*": ["./src/views/*"],
     }
   },
 
