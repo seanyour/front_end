@@ -10,6 +10,7 @@ specifiers:
   normalize.css: ^8.0.1
   npm-run-all: ^4.1.5
   pinia: ^2.0.21
+  pinia-plugin-persistedstate: ^2.3.0
   sass: ^1.55.0
   typescript: ~4.7.4
   unocss: ^0.45.30
@@ -25,6 +26,7 @@ dependencies:
   element-plus: 2.2.18_vue@3.2.41
   normalize.css: 8.0.1
   pinia: 2.0.23_lrjaoqkmph6q2hmgd3qeuy6rom
+  pinia-plugin-persistedstate: registry.npmmirror.com/pinia-plugin-persistedstate/2.3.0_pinia@2.0.23
   vue: 3.2.41
   vue-router: 4.1.5_vue@3.2.41
 
@@ -2872,6 +2874,20 @@ packages:
     version: 2.3.1
     engines: {node: '>=8.6'}
     dev: true
+
+  registry.npmmirror.com/pinia-plugin-persistedstate/2.3.0_pinia@2.0.23:
+    resolution: {integrity: sha512-K7vzt68Z3lbMDjb23Ki2vgHVBP2QFvjl7WNwzIwqY/DAkhSt8mi/z6bN/cXTst7fJjXWF0lC9NyxFKHfxWehuw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pinia-plugin-persistedstate/-/pinia-plugin-persistedstate-2.3.0.tgz}
+    id: registry.npmmirror.com/pinia-plugin-persistedstate/2.3.0
+    name: pinia-plugin-persistedstate
+    version: 2.3.0
+    peerDependencies:
+      pinia: ^2.0.0
+    peerDependenciesMeta:
+      pinia:
+        optional: true
+    dependencies:
+      pinia: 2.0.23_lrjaoqkmph6q2hmgd3qeuy6rom
+    dev: false
 
   registry.npmmirror.com/pkg-types/0.3.5:
     resolution: {integrity: sha512-VkxCBFVgQhNHYk9subx+HOhZ4jzynH11ah63LZsprTKwPCWG9pfWBlkElWFbvkP9BVR0dP1jS9xPdhaHQNK74Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pkg-types/-/pkg-types-0.3.5.tgz}

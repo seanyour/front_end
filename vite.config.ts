@@ -31,6 +31,7 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
   ],
+
   resolve: {
     extensions: ['.js', '.ts', '.tsx', '.jsx', '.vue'],
     alias: {
@@ -42,6 +43,17 @@ export default defineConfig({
       stores: pathResolve('src/stores'),
       utils: pathResolve('src/utils'),
       views: pathResolve('src/views'),
+    },
+  },
+
+  server: {
+    open: true,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000/',
+        changeOrigin: true,
+        rewrite: path => path.replace(/^\/api/, ''),
+      },
     },
   },
 })
